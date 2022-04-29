@@ -30,11 +30,14 @@ body {
   border-radius: 50%;
   cursor: pointer;
   position: relative;
-  transition: all 1s linear;
+  transition: all 0.9s linear;
+  transition-delay: 0.2s;
 }
 input:checked ~ label .btn {
   font-size: 100px;
   transform: rotate(315deg);
+  transition: all 1s linear;
+  transition-delay: .4s;
 }
 input {
   display: none;
